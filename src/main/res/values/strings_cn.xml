@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+     david
+    -->
+
+    <!--
+     common
+    -->
+
+    <string name="ui_button_title_cancel">取消</string>
+    <string name="ui_button_title_ok">确定</string>
+
+    <!--<string name="ui_button_title_done">完成</string>-->
+    <string name="ui_button_title_next">下一步</string>
+    <string name="ui_button_title_login">登录</string>
+
+    <string name="ui_button_title_forget_pwd">忘记密码？</string>
+    <string name="ui_security_code_edittext_hint">请输入图片中的字符</string>
+    <string name="ui_uid_pwd_edittext_uid_hint_reg">请输入手机号</string>
+    <string name="ui_uid_pwd_edittext_uid_hint_login">请输入手机号或邮箱</string>
+    <string name="ui_uid_pwd_edittext_pwd_hint">请输入密码（至少6位）</string>
+    <!--
+     UI
+    -->
+
+    <string name="ui_invitation_code_activity_title">公测邀请码</string>
+    <string name="ui_invitation_code_edittext_hint">请输入邀请码</string>
+
+
+    <!-- 验证码界面 -->
+    <string name="ui_register_check_security_code_activity_title">验证码</string>
+    <string name="ui_register_check_security_code_edittext_hint">请输入验证码</string>
+    <string name="ui_register_check_security_code_label_line1_phone_text">您的手机号码为：</string>
+    <!--<string name="ui_register_check_security_code_label_line1_email_text">您的电子邮箱为：</string>-->
+    <!--<string name="ui_register_check_security_code_label_line2_text">会收到一条含有验证码的短信</string>-->
+    <string name="ui_register_check_security_code_button_resend_msg">重新发送验证码</string>
+    <string name="ui_register_check_security_code_button_recieve_msg_error">没收到验证码?</string>
+    <!--<string name="ui_register_check_security_code_recieve_msg">稍等片刻，工作圈的帅哥美眉们会马上联系您，为您送上验证码~</string>-->
+    <string name="ui_register_check_security_code_recieve_msg">获取成功，请注意接听来电</string>
+
+    <!-- 注册，用户名密码界面 -->
+    <string name="ui_register_uid_pwd_activity_title">注册</string>
+    <string name="ui_register_uid_pwd_checkbox_label">已阅读并同意工作圈</string>
+    <string name="ui_register_uid_pwd_button_agreement_text">《服务协议》</string>
+    <string name="ui_register_uid_pwd_uid_exists">用户名已存在</string>
+
+
+    <!-- 完善信息界面 -->
+    <string name="ui_register_complete_name_ent_activity_title">完善信息</string>
+    <string name="ui_register_complete_name_ent_label_name_text">姓名（必填）</string>
+    <string name="ui_register_complete_name_ent_label_ent_text">企业名称</string>
+
+    <!-- 登录界面 -->
+    <string name="ui_login_new_uid_pwd_activity_title">登录</string>
+
+    <!-- 找回密码,uid界面 -->
+    <string name="ui_find_pwd_uid_activity_title">找回密码</string>
+    <string name="ui_find_pwd_uid_edittext_uid_hint">请输入手机号/邮箱</string>
+
+
+    <string name="ui_find_pwd_new_pwd_activity_title">重设密码</string>
+    <string name="ui_find_pwd_new_pwd_ok">重设密码成功，正在跳转至首页</string>
+    <string name="ui_find_pwd_new_pwd_edittext_pwd1_title">新密码</string>
+    <string name="ui_find_pwd_new_pwd_edittext_pwd2_title">确认密码</string>
+    <string name="ui_find_pwd_new_pwd_edittext_pwd1_hint">请输入新密码</string>
+    <string name="ui_find_pwd_new_pwd_edittext_pwd2_hint">请再次确认新密码</string>
+
+
+    <string name="ui_join_ent_list_activity_title">加入企业</string>
+    <!--<string name="ui_join_ent_list_join_ok">申请已发出</string>-->
+
+
+    <string name="ui_im_group_chat_default_title">群聊</string>
+
+    <string name="error_unknown">未知错误</string>
+    <!--<string name="error_json_parse">数据解析错误</string>-->
+
+    <string name="error_invitation_code">邀请码错误</string>
+    <string name="error_network">网络异常，稍安勿躁</string>
+    <string name="error_server">服务器小憩，扁它</string>
+    <string name="error_timeout">连接超时，稍安勿躁</string>
+    <string name="error_im_service">消息服务暂未连接，请稍后</string>
+    <string name="error_im_create_group_fail">创建群聊失败，请重新登录后再试</string>
+
+
+    <string name="error_uid_empty">手机号不能为空</string>
+    <string name="error_login_uid_empty">帐号或密码不能为空</string>
+    <string name="error_uid_format">用户名格式错误</string>
+    <string name="error_pwd_empty">密码不能为空</string>
+    <string name="error_pwd_not_equal">两次密码输入不一致，请重新输入</string>
+    <string name="error_uid_phone_length">请输入11位真实手机号</string>
+    <string name="error_uid_email_format">请输入正确的邮箱</string>
+    <string name="error_security_code_send_max_time">一天内同一帐号发送验证码不能超过10次</string>
+    <string name="error_security_code_check_fail_max_time">输错太多，重获验证码吧</string>
+    <!--<string name="error_uid_email_length">邮箱忒长，换个50字符以内的吧</string>-->
+    <string name="error_uid_exist">用户已注册</string>
+    <string name="error_uid_not_exist">用户未注册</string>
+    <string name="error_uid_phone_exist">手机号已注册</string>
+    <string name="error_uid_email_exist">邮箱已注册</string>
+    <string name="error_pwd_length">请输入6-20位密码</string>
+    <string name="error_reg_failed">失败</string>
+
+
+    <string name="error_agreement_uncheck">同意服务协议方可注册</string>
+    <!--<string name="error_agreement_uncheck_retry">You jump, I jump!</string>-->
+
+    <string name="error_security_code_blank">验证码不能为空</string>
+    <string name="error_security_code">验证码错误</string>
+    <string name="error_security_code_send">验证码已经发送</string>
+    <string name="error_security_code_send_error">验证码发送失败</string>
+    <!--<string name="error_security_code_retry">输错太多，重获验证码吧</string>-->
+    <!--<string name="error_security_code_phone_retry">您在给手机做压力测试么，换个号试试？</string>-->
+    <!--<string name="error_security_code_email_retry">您在给邮箱做压力测试么，换个号试试？</string>-->
+    <string name="error_security_code_empty">图形验证码不能为空</string>
+    <string name="error_security_code_need">请输入图形验证码</string>
+    <string name="error_security_code_not_match">图形验证码错误</string>
+
+
+    <string name="error_name_empty">姓名不能为空</string>
+    <!--<string name="error_entname_empty">请输入企业名称</string>-->
+    <!--<string name="error_name_length">请输入10个汉字或20个字符以内的姓名</string>-->
+    <!--<string name="error_entname_length">请输入20个汉字或40个字符以内的企业名称</string>-->
+    <string name="error_entname_length">企业名称最多输入20个汉字</string>
+    <string name="error_name_too_long">姓名最多输入10汉字</string>
+
+    <!--<string name="msg_register_success">注册成功！</string>-->
+    <!--<string name="msg_register_failed">注册失败，请重试</string>-->
+    <!--<string name="msg_name_ent_not_complete_exit">尚未完善信息，再按一次退出应用</string>-->
+    <string name="msg_name_ent_failed">提交完善信息失败</string>
+
+
+    <!--<string name="msg_login_failed">登录失败</string>-->
+    <string name="error_uid_pwd_error">帐号或密码错误，请重新输入</string>
+    <string name="error_uid_pwd_error_need_relogin">帐号或密码错误，请尝试重新登录</string>
+
+
+    <!--<string name="error_app_version_not_support">登录版本号不可用</string>-->
+    <!--<string name="error_server_oauth_failed">服务器端鉴权出错，请重试</string>-->
+    <!--<string name="error_join_ent_failed">加入企业失败</string>-->
+    <string name="error_cancel_join_ent_failed">取消加入企业失败</string>
+    <string name="error_user_already_exists_in_ent">用户已经在组织中</string>
+    <string name="error_join_ent_record_not_exist">申请记录不存在</string>
+    <string name="error_create_ent_name_exists">企业名称已被占用，换一个吧</string>
+    <string name="error_not_same_user_who_join">申请人与撤销人不是同一个人</string>
+
+
+    <string name="error_sp_code_empty">服务商代码不能为空</string>
+
+    <string name="error_feedback_failed">操作失败</string>
+
+
+    <!-- 1.5版错误码 -->
+    <string name="error_3000">失败</string>
+    <string name="error_3001">用户姓名不存在</string>
+    <string name="error_3002">用户不存在</string>
+    <string name="error_3003">用户已存在</string>
+    <string name="error_3004">无效参数</string>
+    <string name="error_3005">记录不存在</string>
+    <string name="error_3006">需要验证码</string>
+    <string name="error_3007">验证码不正确</string>
+    <string name="error_3008">获取服务端验证码失败</string>
+    <string name="error_3009">获取服务端TOKEN失败</string>
+    <string name="error_3010">服务器端错误</string>
+
+    <string name="error_local_service">服务异常，稍安勿躁</string>
+
+    <string name="success_network">成功</string>
+</resources>

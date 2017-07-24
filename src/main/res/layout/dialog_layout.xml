@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/dialog_layout"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/dialog_bg_white"
+              android:orientation="vertical">
+
+    <!-- title -->
+    <TextView
+            android:id="@+id/dialog_title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dialog_title_height"
+            android:gravity="center_vertical|center_horizontal"
+            android:paddingLeft="10dp"
+            android:textSize="17sp"
+            android:textColor="#404040"
+            />
+    <!-- content -->
+    <com.chanjet.workcircle.widget.DialogContentLayout
+            android:id="@+id/dialog_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+    </com.chanjet.workcircle.widget.DialogContentLayout>
+    <EditText
+            android:id="@+id/dialog_edit"
+            android:layout_width="match_parent"
+            android:layout_height="79dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="14dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittext_common_selector"
+            android:padding="5dp"
+            android:textSize="14sp"
+            android:textColor="#484848"
+            android:gravity="top|left"
+            android:visibility="gone"/>
+    <TextView
+            android:id="@+id/dialog_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxHeight="79dp"
+            android:layout_marginLeft="11dp"
+            android:layout_marginRight="11dp"
+            android:layout_marginBottom="25dp"
+            android:padding="5dp"
+            android:textSize="16sp"
+            android:textColor="#484848"
+            android:visibility="gone"/>
+    <!-- checkbox -->
+    <RelativeLayout
+        android:id="@+id/rayoutCheckBox"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:orientation="vertical"
+        android:background="@color/white"    >
+
+        <com.chanjet.workcircle.widget.CheckBox
+            android:id="@+id/checkBox"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_selector2"
+            android:scaleType="fitCenter"
+            android:focusable="false"
+            android:layout_centerVertical="true"
+            android:clickable="false"
+
+            />
+        <TextView
+            android:layout_toRightOf="@id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtHint"
+            android:text="不在提醒"
+            android:layout_marginLeft="5dp"
+            android:layout_centerVertical="true"
+            android:textColor="#8a8a8a"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:textSize="14sp"  />
+
+
+    </RelativeLayout>
+    <!-- bottom -->
+    <LinearLayout
+            android:id="@+id/dialog_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dialog_bottom_height"
+            android:gravity="center"
+            android:background="@color/dialog_seperate_line"
+            android:orientation="horizontal">
+
+        <TextView
+                android:id="@+id/dialog_button1"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dialog_bottom_height"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textColor="@color/dialog_default_text"/>
+
+        <TextView
+                android:id="@+id/dialog_button2"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dialog_bottom_height"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textColor="@color/dialog_default_text"/>
+
+        <TextView
+                android:id="@+id/dialog_button3"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dialog_bottom_height"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textColor="@color/dialog_default_text"/>
+    </LinearLayout>
+
+</LinearLayout>

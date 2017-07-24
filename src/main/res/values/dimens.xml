@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!--<dimen name="titlebar_height">45.0dip</dimen>-->
+  <!--<dimen name="emotion_view_height">10dip</dimen>-->
+  <dimen name="slide_length">60.0dip</dimen>
+  <!--<dimen name="card_margin">8.5dp</dimen> &lt;!&ndash; 使用@drawable/card_bg1时card的margin值 &ndash;&gt;-->
+
+    <!-- dialog -->
+    <dimen name="dialog_text_size">16sp</dimen>
+    <dimen name="dialog_content_padding_horizontal">20dp</dimen>
+    <dimen name="dialog_content_padding_vertical">30dp</dimen>
+
+    <dimen name="dialog_title_height">50dp</dimen>
+    <dimen name="dialog_bottom_height">50dp</dimen>
+    <dimen name="dialog_paddingHorizontal">20dp</dimen>
+    <!--<dimen name="dialog_paddingVertical">40dp</dimen>-->
+    <dimen name="dialog_minWidth">200dp</dimen>
+    <dimen name="dialog_minHeight">130dp</dimen>
+    <dimen name="dialog_maxHeight_landscape">150dp</dimen>
+    <dimen name="dialog_maxHeight_portrait">400dp</dimen>
+    <!--<dimen name="pickerDialog_padding">5dp</dimen>-->
+    <dimen name="dialog_text_size_button">17sp</dimen>
+    <!--<dimen name="date_picker_selector_height">35dp</dimen>-->
+
+  <dimen name="xlistview_im_header_height">46dp</dimen><!--xlistview_im_header.xml 里用-->
+
+
+
+    <!-- 文件选择器 by wk-->
+    <!-- 文字大小 单位sp -->
+    <dimen name="text_10sp">10sp</dimen>
+    <dimen name="text_12sp">12sp</dimen>
+    <dimen name="text_14sp">14sp</dimen>
+    <dimen name="text_16sp">16sp</dimen>
+    <dimen name="text_20sp">20sp</dimen>
+    <dimen name="view_4dp">4dp</dimen>
+    <dimen name="view_6dp">6dp</dimen>
+    <dimen name="view_8dp">8dp</dimen>
+    <dimen name="view_10dp">10dp</dimen>
+    <dimen name="view_20dp">20dp</dimen>
+    <dimen name="view_30dp">30dp</dimen>
+    <dimen name="view_26dp">26dp</dimen>
+    <dimen name="view_36dp">36dp</dimen>
+    <dimen name="view_40dp">40dp</dimen>
+    <dimen name="view_50dp">50dp</dimen>
+    <dimen name="view_60dp">60dp</dimen>
+    <dimen name="title_btn_w">55dp</dimen>
+    <dimen name="title_btn_h">36dp</dimen>
+    <dimen name="list_item_height">55dp</dimen>
+    <dimen name="list_item_icon_width">40dp</dimen>
+</resources>

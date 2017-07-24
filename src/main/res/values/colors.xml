@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red">#dd0000</color>
+    <!--<color name="app_bg">#fafafa</color>-->
+    <!-- 页面总体背景色
+    <color name="card_bg">#f6f3f3</color>-->
+    <color name="card_bg">#f0f0f0</color>
+    <!-- 卡片背景色：灰色 -->
+    <color name="transparent">#00000000</color>
+    <!-- 透明 -->
+
+    <!--<color name="card_tool_devider">#e1e1e1</color>-->
+    <!-- 卡片操作区分割线背景色 -->
+
+
+    <!-- <color name="black">#ff000000</color> -->
+   <!--  <color name="white">#ffffff</color> -->
+    <color name="list_bg">#f8f8f8</color>
+    <!--<color name="msg_bottom">#3c3c3c</color>-->
+    <!-- 黑灰色 -->
+    <!--<color name="circle_reply_color">#8d8d8d</color>-->
+    <!-- 黑灰色 -->
+
+    <color name="user_main_page_selected_text">@color/topbar_background</color>
+    <color name="user_main_page_unselected_text">#999999</color>
+    <color name="user_main_page_text_seperator">#DDDDDD</color>
+
+    <color name="pbsto">#ffcecece</color>
+    <color name="color">#ff0173b4</color>
+    <!--<color name="color1">#ffd80114</color>-->
+    <color name="color2">#fff7b791</color>
+    <!--<color name="color3">#ffd7029f</color>-->
+    <!--<color name="color4">#ff01d8c4</color>-->
+    <!--<color name="color5">#ff7acf8c</color>-->
+    <!--<color name="color6">#ffb44201</color>-->
+    <!--<color name="color7">#ff8401d8</color>-->
+    <!--<color name="color8">#ff00f200</color>-->
+    <!--<color name="color9">#ff568e93</color>-->
+
+    <!--<color name="red">#ffff0000</color>-->
+
+
+    <color name="zhuanfa_border">#ececec</color>
+    <!-- 转发帖子的border值 -->
+    <color name="zhuanfa_bg">#fdfcf9</color>
+    <!-- 转发帖子的背景值 -->
+
+
+    <!--<color name="vote_isvoted">#cfe3f5</color>-->
+    <!--<color name="vote_notvoted">#fec9c7</color>-->
+
+
+    <!--成员与简介-->
+    <color name="member_title">#585858</color>
+    <color name="member_creator">#939393</color>
+    <color name="member_content">#cbcbcb</color>
+    <color name="member_footer">#8d8d8d</color>
+    <!--<color name="user_bg">#f5f5f5</color>-->
+    <!--发言列表  卡片  -->
+    <color name="cardlist_username">#202020</color>
+    <!--用户名 -->
+    <color name="cardlist_time">#939393</color>
+    <!--发言时间 -->
+    <color name="card_content_color">#000000</color>
+    <!-- 卡片内容 -->
+    <!--<color name="card_horizon_line">#e7e7e7</color>-->
+    <!-- 卡片操作区上的横线 -->
+    <color name="card_vertical_line">#e1e1e1</color>
+    <!-- 卡片操作区 按钮之间的竖线-->
+    <color name="card_tool_bg">#fafafa</color>
+    <!-- 卡片操作区背景色 -->
+    <color name="card_tool_bg_pressed">#f1f0f0f0</color>
+    <!-- 卡片操作区背景色 -->
+    <!--<color name="card_tool_text">#9f9f9f</color>-->
+    <!-- 卡片操作区  文字-->
+
+    <!--<color name="card_vote">#cac9c7</color>-->
+    <!--<color name="card_num">#696969</color>-->
+    <!--<color name="carddetail_vote">#c8c8c8</color>-->
+    <!--<color name="card_click_bg">#d9f2f4</color>-->
+
+    <!--<color name="gallary_bg">#f4f3f4</color>-->
+
+
+    <!--发言详情  -->
+    <color name="card_detail_horizon_line">#e7e7e7</color>
+    <!-- 发言详情操作区上的横线 -->
+    <color name="card_detail_zan_num">#c3c3c3</color>
+    <!-- 发言详情赞的数量-->
+
+
+    <!--评论  -->
+    <color name="comment_username">#a9a9a9</color>
+    <!--用户名 -->
+    <color name="comment_content">#858585</color>
+    <!--内容 -->
+
+
+    <!--转发  -->
+    <color name="share_color1">#908f8f</color>
+    <!--“此信息最初是由” 字体颜色 -->
+    <!--<color name="share_shareto">#8d8d8d</color>-->
+    <!--“分享到” 字体颜色  -->
+    <!--<color name="shareto_circle">#b1c09f</color>-->
+    <!--分享到 圈子字体颜色 -->
+    <color name="share_username">#ff000000</color>
+    <!--最初分享者姓名-->
+
+    <!--发言  -->
+    <!--<color name="location">#c2c2c3</color>-->
+    <!--位置 -->
+    <color name="gridview_item_bg">#f3f3f3</color>
+    <!--gridview的item 图片小时 的背景色 -->
+
+
+    <!--圈子成员  -->
+    <color name="memberlist_email">#bbbbbb</color>
+    <!--邮箱 -->
+    <color name="memberlist_boder">#e5e5e5</color>
+    <!--分割线 -->
+
+    <!--  圈子列表 -->
+    <color name="circle_list_time">#b8b8b8</color>
+    <color name="circle_list_content">#8d8d8d</color>
+    <color name="circle_list_circlename">#585858</color>
+    <!--  登录 -->
+    <!--<color name="login_message">#f94342</color>-->
+    <!--提示信息 -->
+    <!--<color name="login_account">#343434</color>-->
+    <!--帐号 -->
+    <!--<color name="login_login">#ddecf8</color>-->
+    <!--登录 -->
+    <!--<color name="login_page_bg">#e6e6e6</color>-->
+    <!--登录页背景色 -->
+
+
+    <!--  我的工作 -->
+
+    <!--  条目正常状态的最底部的颜色 -->
+    <color name="work_bottom_normal">#dde1e1</color>
+    <!--  条目默认的点击颜色 -->
+    <color name="work_press_default">#00bbd2</color>
+    <!--  未上线条目的颜色 -->
+    <color name="work_outline_nomal">#cbd1d1</color>
+    <color name="work_outline_press">#b7bcbd</color>
+    <color name="work_refuse">#f18e8e</color>
+    <!--  上线条目的点击背景颜色 按id命名-->
+    <color name="work_color_1">#00bbd2</color>
+    <color name="work_color_2">#f3aa54</color>
+
+    <!--  上线  工作名称-->
+    <color name="work_color_text_online">#757575</color>
+    <!--  未上线  工作名称-->
+    <color name="work_color_text_offline">#C5C5C5</color>
+
+    <color name="work_item_bg">#f0f0f0</color>
+
+    <color name="org_list_item_bg_press">#edecec</color>
+
+    <!--拒绝加入企业按钮的灰色-->
+    <color name="corp_invite_refuse_text">#888888</color>
+    <color name="corp_invite_refuse_border">#dddddd</color>
+
+    <!--  创建圈子 -->
+    <color name="create_circle_bg">#ffffff</color>
+    <!--<color name="create_circle_click_edit_bg">#26000000</color>&lt;!&ndash; 点击修改 &ndash;&gt;-->
+    <!-- 页面背景-->
+    <color name="create_circle_textcolor1">#bfbfbf</color>
+    <!--圈子名称 圈子简介 仅限管理员邀请 所有成员均可邀请 -->
+
+    <!--  创建圈子成功 -->
+    <!--<color name="create_circle_success_bg">#f8f8f8</color>-->
+    <!-- 页面背景-->
+    <color name="create_circle_success_circle_name">#404040</color>
+    <!--圈子名称 -->
+    <color name="create_circle_success_creator">#ababab</color>
+    <!--创建者 -->
+    <color name="create_circle_success_line">#e7e7e7</color>
+    <!--分隔线 -->
+    <!--<color name="create_circle_success_done_bg">#f99280</color>-->
+    <!--完成背景 -->
+
+    <!--  圈子信息 -->
+    <color name="circle_info_item_title_bg">#f8f8f8</color>
+    <!-- 条目标题背景-->
+    <color name="circle_info_item_title">#979797</color>
+    <!-- 条目标题字体-->
+
+    <!-- 我的页面 -->
+    <color name="tw_mine_headname">#a1a1a1</color>
+    <color name="tw_mine_detail">#404040</color>
+
+    <!--  IndexBar  -->
+    <color name="IndexBar_Text_Color">#00bbd2</color>
+    <color name="IndexBar_Text_Color_Gray">#939393</color>
+ <!--67858D</color>-->
+    <color name="IndexBar_Text_Pressed_Color">#FFFFFF</color>
+    <color name="IndexBar_PopupWindow_Text_Color">#FFFFFF</color>
+
+    <!--   按钮 -->
+    <color name="Button_Bule_Nomal">#00bbd2</color>
+    <color name="Button_Bule_Press">#0097a7</color>
+    <color name="Button_White_Nomal">#ffffff</color>
+    <color name="Button_White_Press">#e4e4e4</color>
+    <color name="Button_Disabled">#dadada</color>
+    <color name="Button_BlueBorder_Disabled">#00ffffff</color>
+    <color name="Button_Red_Nomal">#ff6652</color>
+    <color name="Button_Red_Press">#cf5242</color>
+    <color name="Button_Gray_Nomal">#dadada</color>
+    <color name="Button_Gray_Press">#dadada</color>
+
+
+    <!-- dialog-->
+    <color name="dialog_default_text">#FF000000</color>
+    <!--<color name="dialog_botton_default">#FFFFFFFF</color>-->
+    <!--<color name="dialog_botton_pressed">#FFF2F2F2</color>-->
+    <color name="dialog_botton1_text">#FF808080</color>
+    <color name="dialog_botton2_text">#00bbd2</color>
+    <color name="dialog_seperate_line">#FFD9D9D9</color>
+    <!--<color name="dialog_date_selector">#FFF0F0F0</color>-->
+
+
+    <color name="txt_default_color">#7b7b7b</color>
+
+    <color name="card_detail_bg">#fafafa</color>
+    
+	<color name="cardlist_tool_bg_normal">#eff8f8f8</color>
+	<color name="cardlist_tool_bg_pressed">#dedfe1</color>
+
+    <color name="error_animation_bg_success">#81c9fc</color>
+    <color name="error_animation_bg_fail">#ff8f2f</color>
+
+    <color name="bill_comfirm_text">#00bbd2</color>
+    <color name="bill_detail_default_textcolor">#404040</color>
+    <color name="bill_comfirmed_text">#efeeee</color>
+
+
+    <!--shenxy 2014-10-13 新的主题风格-->
+    <color name="topbar_background">#00bbd2</color>
+    <color name="topbar_background_halftrans">#b400bbd2</color>
+
+    <color name="code_gray">#c9c9c9</color>
+
+    <!--添加成员主标题和副标题的颜色-->
+    <color name="add_member_title">#0c0c0c</color>
+    <color name="add_member_subtitle">#939393</color>
+    <color name="add_member_searchbar_background">#f8f8f8</color>
+
+
+    <color name="employee_divider">#F0F0F0</color>
+ <!--#F6FAFB</color>-->
+    <color name="employee_divider_line">#d1d1d1</color>
+ <!--CBDBDF</color>-->
+    <color name="employee_divider_alpha">#67858D</color>
+
+    <color name="half_transparent">#80FFFFFF</color>
+
+    <color name="network_error_text">#51888f</color>
+
+   <color name="btn_text_notclick">#ABABAB</color>
+
+    <color name="no_corp_circle_tips">#fff8dc</color>
+    <color name="no_corp_circle_tips_text">#6e5a28</color>
+    <color name="no_corp_circle_tips_border">#fceba8</color>
+
+
+    <!-- 文件选择器 by wk-->
+    <!-- 列表框分隔栏颜色 -->
+    <color name="darkGray">#bebebe</color>
+
+
+    <color name="fileexplorer_selected">#e9e9e9</color>
+
+    <color name="card_detail_divider">#dfdfdf</color>
+    <color name="half_transparent_upgrade_dialog">#50000000</color>
+    <color name="font_black">#3a3a3a</color>
+
+    <!--//电话会议 会控界面-->
+    <color name="conf_mem_bg_calling">#b3000000</color>
+    <color name="conf_mem_bg_exit">#4d000000</color>
+    <color name="conf_tips_dot">#1DADD0</color>
+
+    <!-- ChanjetPopupMenu -->
+    <color name="popup_menu_listview_item_press">#EFF0F1</color>
+
+    <color name="emoji_background">#fdfcfc</color>
+    <!--轻应用界面的加载进度条-->
+    <color name="lightapp_progress_bar">#47f3f9</color>
+
+    <color name="popwindow_bg_color">#00000000</color>
+    <color name="gray_new">#a3a3a3</color>
+    <color name="record_text_color">#333333</color>
+    <color name="first_split_line_color">#e7e7e7</color>
+    <color name="wheel_disable">#829196</color>
+    <color name="user_card_item_name">#88888888</color>
+
+</resources>
+

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 菜单左边颜色 -->
+    <color name="menu_left_text">#b3b3b3</color>
+    
+    <!-- 对话界面 文字颜色 
+    <color name="imate_chat_text">#567181</color>-->
+    <color name="imate_chat_text">#000000</color>
+    <!--<color name="imate_white">#ffffffff</color>-->
+    <color name="white">#ffffffff</color>
+    <!--<color name="imate_black">#ff000000</color>-->
+    <color name="gray">#575757</color>
+    <color name="black">#ff000000</color>
+    <color name="black_scrollbar">#5a000000</color>
+    <!--<color name="black_half">#50000000</color>-->
+    <!--<color name="black_harf">#30000000</color>-->
+    <!--<color name="todo_detail_item_bg">#f2f7fa</color>-->
+    <!-- 订单审批界面 -->
+    <color name="imate_order_approve_title">#7e7f7f</color>
+    <color name="imate_order_approve_comment">#fa9c9c</color>
+    <color name="imate_cancel_gray">#a4aaaf</color>
+    <color name="imate_message_item_gray">#ada8a8</color>
+    
+    <!-- 登录界面 -->
+    <!--<color name="imate_login_change_verifycode">#999922</color>-->
+    
+    <!--<color name="imate_dropdown_item_blue">#e5f5fe</color>-->
+    <!--<color name="imate_dropdown_item_gray">#f6f7f8 </color>-->
+    <!-- 注册页面 -->
+    <!--<color name="title_bule">#3e92e6</color>-->
+    <!--<color name="title_helf">#707070</color>-->
+    <!-- 消息列表的点击后的灰色 -->
+    <!--<color name="message_item_press_grey">#e3ebed</color>-->
+    <!--<color name="list_item_friend_line">#d9d9d9</color>-->
+    <!--<color name="list_item_friend_c">#f1f5f8</color>-->
+    
+    <!-- 聊天发送按钮的背景色 -->
+    <!--<color name="imate_chat_send_normal">#f8f8f8</color>-->
+    <!--<color name="imate_chat_send_press">#00bbd2</color>-->
+    
+    <!-- 聊天发送按钮的背景色 -->
+    <color name="imate_chat_image_maker_normal">#00bbd2</color>
+    <color name="imate_chat_image_maker_press">#0097a7</color>
+    
+    <color name="imate_chat_audio_invalid">#dd0000</color>
+    <color name="imate_chat_audio_invalid_bg">#f39481</color>
+    <color name="imate_chat_audio_valid_bg">#82dfe7</color>
+    <!-- MessageList的点击效果颜色 -->
+    <color name="imate_message_press">#f8f7f7</color>
+    <color name="white_halftrans">#a0ffffff</color>
+
+    <color name="image_preview_bar_background">#191c1d</color>
+
+    <color name="new_year_red">#fe0000</color>
+</resources>
